@@ -8,6 +8,6 @@ driver = webdriver.Firefox()
 # The driver.get method will navigate to a page given by the URL
 driver.get("http://localhost/selenium-tutorial-main.html")
 # Assert the Page Title
-assert "Qxf2 Services: Selenium training main" in driver.title
+assert "Qxf2 Services:Selenium training main" in driver.title
 # Close the browser window
 driver.close()
